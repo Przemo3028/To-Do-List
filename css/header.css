@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    margin: 0px;
+    padding:10px;
+    border-bottom: 1px solid gainsboro;
+}

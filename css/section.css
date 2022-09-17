@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.form {
+    padding:20px;
+}
+
+.section__header {
+    margin: 0px;
+    padding:10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.section__list {
+    padding:20px;
+    list-style-type: none;
+}

@@ -8,12 +8,17 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px 20px;
-    background-image: url(../images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: hsl(0, 10%, 95%)
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin:20px 50px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
 }
