@@ -6,17 +6,52 @@ html {
     box-sizing: inherit;
 }
 
+.section__button {
+    padding: 5px;
+    color: white;
+    background-color: teal;
+    border: none;
+}
+
+@media (max-width: 767px) {
+
+    .section__button {
+        width: 100%;
+    }
+}
+
 .section__form {
-    padding:20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .section__form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .section__header {
     margin: 0px;
-    padding:10px;
+    padding: 10px;
     border-bottom: 1px solid gainsboro;
 }
 
+.section__input {
+    border: 1px solid gainsboro;
+}
+
+@media (max-width: 767px) {
+    .section__input {
+        width: 100%;
+    }
+}
+
 .section__list {
-    padding:20px;
+    padding: 20px;
     list-style-type: none;
 }
