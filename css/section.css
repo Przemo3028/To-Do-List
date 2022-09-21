@@ -7,51 +7,43 @@ html {
 }
 
 .section__button {
-    padding: 5px;
+    padding: 10px 5px;
     color: white;
     background-color: teal;
     border: none;
+    cursor:pointer;
+    
 }
 
-@media (max-width: 767px) {
-
-    .section__button {
-        width: 100%;
-    }
+.section__button:active {
+    background-color: hsl(180, 70%, 25%);
 }
 
 .section__form {
-    padding: 20px;
+    padding: 15px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 15px;
 }
 
 @media (max-width: 767px) {
     .section__form {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
     }
 }
 
 .section__header {
-    margin: 0px;
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid gainsboro;
+    font-size: large;
 }
 
 .section__input {
     border: 1px solid gainsboro;
-}
-
-@media (max-width: 767px) {
-    .section__input {
-        width: 100%;
-    }
+    padding: 8px;
 }
 
 .section__list {
-    padding: 20px;
+    padding: 15px;
     list-style-type: none;
 }
