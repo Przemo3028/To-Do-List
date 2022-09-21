@@ -41,6 +41,11 @@ html {
 .section__input {
     border: 1px solid gainsboro;
     padding: 8px;
+    outline:none
+}
+
+.section__input:focus {
+    border: 1px solid black;
 }
 
 .section__list {
