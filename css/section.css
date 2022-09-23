@@ -11,12 +11,11 @@ html {
     color: white;
     background-color: teal;
     border: none;
-    cursor:pointer;
-    
+    cursor: pointer;
 }
 
 .section__button:active {
-    background-color: hsl(180, 70%, 25%);
+    outline: auto;
 }
 
 .section__form {
@@ -41,11 +40,12 @@ html {
 .section__input {
     border: 1px solid gainsboro;
     padding: 8px;
-    outline:none
+    outline: none
 }
 
 .section__input:focus {
     border: 1px solid black;
+    border-radius: 2px;
 }
 
 .section__list {

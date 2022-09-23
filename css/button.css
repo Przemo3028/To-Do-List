@@ -11,13 +11,12 @@ html {
     background-color: green;
     height: 30px;
     width: 30px;
-    padding:0px;
-    border:none;
-    margin:5px;
+    padding: 0px;
+    border: none;
+    margin: 5px;
     cursor: pointer;
 }
 
 .button--remove {
-    background-color:red;
+    background-color: red;
 }
-

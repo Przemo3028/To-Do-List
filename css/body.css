@@ -15,7 +15,7 @@ html {
 .container {
     background-color: hsl(0, 0%, 100%);
     max-width: 80%;
-    margin:auto;
+    margin: auto;
 }
 
 @media (max-width: 767px) {

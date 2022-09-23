@@ -9,7 +9,7 @@ html {
 .list__item {
     border-bottom: 1px solid gainsboro;
     padding-bottom: 5px;
-    display:grid;
+    display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     grid-gap: 20px;
