@@ -7,13 +7,13 @@ You can either mark tasks as "done" by pressing green button or remove
 them from task list by pressing red button.
 
 ## Technology used to create tool
- -Java Script
- -HTML
- -CSS
- -BEM
+ - Java Script
+ - HTML
+ - CSS
+ - BEM
 
 ## Preview
-![animated gif](https://github.com/Przemo3028/Currency---converter/blob/main/images/animated_gif.gif?raw=true)
+![animated gif](https://github.com/Przemo3028/To-Do-List/blob/main/images/Gif.gif?raw=true)
 
 ## Demo
-https://przemo3028.github.io/Currency-converter/
+https://przemo3028.github.io/To-Do-List/
