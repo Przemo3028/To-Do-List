@@ -16,4 +16,4 @@ them from task list by pressing red button.
 ![animated gif](https://github.com/Przemo3028/Currency---converter/blob/main/images/animated_gif.gif?raw=true)
 
 ## Demo
-https://przemo3028.github.io/Currency-converter/
+https://przemo3028.github.io/To-Do-List/
