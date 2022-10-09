@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 
-.section__button {
+.form__button {
     padding: 10px 5px;
     color: white;
     background-color: teal;
@@ -14,41 +14,30 @@ html {
     cursor: pointer;
 }
 
-.section__button:active {
+.form__button:active {
     outline: auto;
 }
 
-.section__form {
+.form {
     padding: 15px;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr auto;
     grid-gap: 15px;
 }
 
 @media (max-width: 767px) {
-    .section__form {
+    .form {
         grid-template-columns: 1fr;
     }
 }
 
-.section__header {
-    padding: 15px;
-    border-bottom: 1px solid gainsboro;
-    font-size: large;
-}
-
-.section__input {
+.form__input {
     border: 1px solid gainsboro;
     padding: 8px;
     outline: none
 }
 
-.section__input:focus {
+.form__input:focus {
     border: 1px solid black;
     border-radius: 2px;
-}
-
-.section__list {
-    padding: 15px;
-    list-style-type: none;
 }
