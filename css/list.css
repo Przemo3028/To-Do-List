@@ -6,6 +6,11 @@ html {
     box-sizing: inherit;
 }
 
+.list {
+    padding: 15px;
+    list-style-type: none;
+}
+
 .list__button {
     color: white;
     background-color: green;
@@ -32,4 +37,11 @@ html {
 
 .list__item--done {
     text-decoration: line-through;
+}
+
+.list__header {
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+    font-size: large;
+    margin: 10px 0px;
 }
