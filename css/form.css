@@ -9,13 +9,19 @@ html {
 .form__button {
     padding: 10px 5px;
     color: white;
-    background-color: teal;
+    background-color: hsl(180, 100%, 25%);
     border: none;
     cursor: pointer;
+    transition: background 1s, transform 0.5s;
 }
 
 .form__button:active {
     outline: auto;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+    transform: scale(105%);
 }
 
 .form {
