@@ -45,11 +45,15 @@ html {
 
 .section__button {
     border: none;
-    color: teal;
+    color: hsl(180, 100%, 25%);
     background-color: white;
     padding: 0px 20px;
     margin: 15px 0px;
+    transition: 1s;
+}
 
+.section__button:hover {
+    color: hsl(180, 100%, 30%);
 }
 
 @media (max-width: 650px) {
