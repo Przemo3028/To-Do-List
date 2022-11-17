@@ -27,6 +27,7 @@ html {
 }
 
 .list__item {
+    margin: 0px 10px;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 5px;
     display: grid;
@@ -40,8 +41,7 @@ html {
 }
 
 .list__header {
-    padding: 15px;
-    border-bottom: 1px solid gainsboro;
+    padding: 0px 15px;
     font-size: large;
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
