@@ -10,7 +10,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(0, 10%, 95%);
     word-break: break-word;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -29,4 +29,35 @@ html {
 
 .section {
     background-color: hsl(0, 0%, 100%);
+}
+
+.section__body {
+    display: grid;
+    border-bottom: 1px solid gainsboro;
+    margin: 10px 0px;
+}
+
+@media (min-width: 650px) {
+    .section__body {
+        grid-template-columns: 1fr auto auto;
+    }
+}
+
+.section__button {
+    border: none;
+    color: teal;
+    background-color: white;
+    padding: 0px 20px;
+    margin: 15px 0px;
+
+}
+
+@media (max-width: 650px) {
+    .section__button {
+        width: 100%;
+    }
+}
+
+.section__button:disabled {
+    color: hsl(0, 0%, 80%)
 }
