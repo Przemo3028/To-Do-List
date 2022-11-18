@@ -115,7 +115,6 @@
         <button class="section__button js-hideDone"> ${hideDoneTasks ? "pokaż" : "ukryj"} ukończone</button>
         <button class="section__button js-allDone" ${tasks.every(({ done }) => done) ? "disabled" : ""}> ukończ wszystkie</button>
         `
-
     };
 
     const render = () => {
@@ -125,7 +124,6 @@
         bindButtonEvents();
         bindRemoveEvents();
         bindToggleDoneEvents();
-
     };
 
     const onFormSubmit = (event) => {
@@ -149,7 +147,6 @@
         const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
-
     };
 
     init();
