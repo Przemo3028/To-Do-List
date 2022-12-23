@@ -4,3 +4,9 @@
     font-size: large;
     margin: 0;
 }
+
+.head {
+    margin: 10px auto;
+    background-color: hsl(0, 10%, 95%);
+    padding: 10px 0px;
+}
